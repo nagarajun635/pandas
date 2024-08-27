@@ -117,7 +117,7 @@ print(iris.assign(sepal_ratio=lambda x: x['SepalWidth']/x['SepalLength']).head()
 print(iris.query('SepalLength > 5').assign(SepalRatio=lambda x: x.SepalWidth/x.SepalLength,
                                            PetalRatio=lambda y: y.PetalWidth/y.PetalLength
                                            ).plot(kind='scatter', x='SepalRatio', y='PetalRatio'))
-# plt.show()
+plt.show()
 print(iris)
 
 dfa = pd.DataFrame({
