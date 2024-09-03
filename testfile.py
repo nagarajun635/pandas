@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 from pyspark.sql.functions import col, pandas_udf
-from pyspark.sql.types import LongType, IntegerType
+from pyspark.sql.types import IntegerType
 from pyspark.sql import SparkSession
 
 
@@ -49,12 +49,13 @@ from pyspark.sql import SparkSession
 
 spark = SparkSession.builder.appName('pandasInterviwe').getOrCreate()
 
+
 def multiply_func(a, b):
     return a + b
 
 
 multiply = pandas_udf(multiply_func, returnType=IntegerType())
 x = pd.Series([1, 2, 3])
-print('this is first',multiply_func(x, x))
+print('this is first', multiply_func(x, x))
 df = spark.createDataFrame(pd.DataFrame(x, columns=['x']))
 df.select(multiply(col('x'), col('x'))).show()
