@@ -1,0 +1,47 @@
+id,name,units,display_name,description
+1,pm10,µg/m³,PM10,Particulate matter less than 10 micrometers in diameter mass concentration
+2,pm25,µg/m³,PM2.5,Particulate matter less than 2.5 micrometers in diameter mass concentration
+3,o3,µg/m³,O₃ mass,Ozone mass concentration
+4,co,µg/m³,CO mass,Carbon Monoxide mass concentration
+5,no2,µg/m³,NO₂ mass,Nitrogen Dioxide mass concentration
+6,so2,µg/m³,SO₂ mass,Sulfur Dioxide mass concentration
+7,no2,ppm,NO₂,Nitrogen Dioxide concentration
+8,co,ppm,CO,Carbon Monoxide concentration
+9,so2,ppm,SO₂,Sulfur Dioxide concentration
+10,o3,ppm,O₃,Ozone concentration
+11,bc,µg/m³,BC,Black Carbon mass concentration
+15,no2,ppb,NO₂,
+19,pm1,µg/m³,PM1,Particulate matter less than 1 micrometer in diameter mass concentration
+21,co2,ppm,CO₂,Carbon Dioxide concentration
+22,wind_direction,deg,Wind direction,Direction that the wind originates from
+23,nox,ppb,NOX,
+24,no,ppb,NO,
+27,nox,µg/m³,NOx mass,Nitrogen Oxides mass concentration
+28,ch4,ppm,CH₄,Methane concentration
+32,o3,ppb,O₃,
+33,ufp,particles/cm³,UFP count,Ultrafine Particles count concentration
+34,wind_speed,m/s,Wind speed,Average wind speed in meters per second
+35,no,ppm,NO,Nitrogen Monoxide concentration
+95,pressure,hpa,Atmospheric pressure,Atmospheric or barometric pressure
+97,pm25-old,ugm3,,
+98,relativehumidity,%,RH,
+100,temperature,c,Temperature (C),
+101,so2,ppb,SO₂,
+102,co,ppb,CO,
+125,um003,particles/cm³,PM0.3 count,
+126,um010,particles/cm³,PM1 count,PM1 count
+128,temperature,f,Temperature (F),
+130,um025,particles/cm³,PM2.5 count,PM2.5 count
+132,pressure,mb,Pressure,
+134,humidity,%,H,
+135,um100,particles/cm³,PM10 count,PM10 count
+19840,nox,ppm,NOx,Nitrogen Oxides concentration
+19843,no,µg/m³,NO mass,Nitrogen Monoxide mass concentration
+19844,pm4,µg/m³,PM4.0,Particulate matter less than 4 micrometers in diameter mass concentration
+19860,pm25,ppm,,
+19861,bc_375,ng/m³,BC 375nm,Black Carbon mass concentration 375nm 
+19862,bc_470,ng/m³,BC 470nm,Black Carbon mass concentration 470nm 
+19863,bc_528,ng/m³,BC 528nm,Black Carbon mass concentration 528nm 
+19864,bc_625,ng/m³,BC 625nm,Black Carbon mass concentration 625nm 
+19865,bc_880,ng/m³,BC 880nm,Black Carbon mass concentration 880nm 
+19866,bc_370,ng/m³,BC 370nm,Black Carbon mass concentration 375nm 
